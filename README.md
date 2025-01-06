@@ -26,7 +26,7 @@ The Variables Injector node allows you to dynamically replace placeholders in yo
 4. In your prompt, reference the variable using `!variable_name`
    - For example: `"A woman holding a !item"`
 5. The node will replace `!item` with `bag` in the final prompt
-6. You can add as many variables as you like using Var1 through Var8
+6. You can add as many variables as you like!
 
 ### Example
 Input string: `item | bag`
@@ -35,7 +35,7 @@ Result: `"A woman holding a bag"`
 
 ## Credits
 
-- Custom nodes were developed by Finetuners
+- The finetuners suite was created by Finetuners.ais
 - Variables Injector's UI was created with the help of Shmuel Ronen (https://github.com/ShmuelRonen)
 - The group link custom node is heavily based on RGThree mute groups node
 
